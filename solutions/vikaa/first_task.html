@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First task</title>
+</head>
+<body>
+    <script>
+        function sumOfMultiples(number) {
+            let sum = 0;
+            for (let i = 1; i < number; i++) {
+                if (i % 3 === 0 || i % 5 === 0) {
+                    sum += i;
+                }
+            }
+            return sum;
+        }
+
+        let userInput = prompt("Введите число"); 
+        let result = sumOfMultiples(userInput);
+        console.log(result);
+    </script>
+</body>
+</html>
