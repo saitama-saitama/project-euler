@@ -1,4 +1,12 @@
 function sumFibonacci(n) {
+  if (isNaN(n)) {
+    console.log("Введите числовое значение!!");
+    return;
+  }
+  if (n <= 0) {
+    console.log("Число должно быть положительным!!");
+    return;
+  }
   let sum = 0;
   let a = 1;
   let b = 2;
