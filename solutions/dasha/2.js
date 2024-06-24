@@ -16,8 +16,3 @@ function sumEvenFibonacciNumbers() {
 }
 
 console.log(sumEvenFibonacciNumbers());
-
-
-...
-asdf
-..
