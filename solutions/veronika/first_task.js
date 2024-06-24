@@ -8,6 +8,6 @@ function sumOfMultiples(number) {
     return sum;
 }
 
-let parameterValue = 10;
+let parameterValue = parseInt(prompt("Enter a number: "));
 let result = sumOfMultiples(parameterValue);
-console.log(result);
+alert("The sum of multiples of 3 or 5 below " + parameterValue + " is " + result);

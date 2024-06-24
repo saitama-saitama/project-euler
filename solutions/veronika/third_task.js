@@ -18,5 +18,8 @@ function largestPrimeFactor(number) {
     return largestFactor;
 }
 
-let number = 13195;
-console.log("The largest prime factor of " + number + " is " + largestPrimeFactor(number));
+let userInput = prompt("Enter a number: ");
+let number = parseInt(userInput);
+
+let result = largestPrimeFactor(number);
+alert("The largest prime factor of " + number + " is " + result);
